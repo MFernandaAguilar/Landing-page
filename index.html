@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Harry Potter</title>
+</head>
+<body>
+        
+        <div class="padre">
+        
+            
+            <header class="header">
+                <div class="menu">
+                    <div class="logo">
+                      <img src="data:image/png;base64,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">
+                    </div>
+
+                    <div class="nav">
+                        <a href="#Hogwarts">Hogwarts</a>
+                        <a href="#casas">Casas</a>
+                        <a href="#Personajes">Personajes</a>
+                    </div>
+                    
+                </div>
+                <div class="imagen-principal">
+                    <img src="https://cdn.atomix.vg/wp-content/uploads/2018/07/Nuevo-set-de-HOGWARTS-de-lego.jpg";>
+                </div>
+            </header>
+            <section class="section">
+                <a name="Hogwarts"></a>
+                <div class="casas">
+                    <h2>Hogwarts</h2>
+                </div>
+                <div class="Hogwarts">
+                   
+                    <div class="comedor">
+                    <img src="https://assets1.ignimgs.com/2018/04/30/hogwartsblog-1525112612664_160w.jpg?width=1280">
+                    </div>
+                     <div class="descripcion">
+                    <p>Hogwarts es un colegio para brujas y magos al que se accede tras recibir una invitación 
+                        que entrega un búho. Hay ciento cuarenta y dos escaleras que se mueven como si tuvieran 
+                        vida propia. Sus fundadores fueron Godric Gryffindor, Rowena Ravenclaw, Helga Hufflepuff 
+                        y Salazar Slytherin, en cuyo honor se pusieron nombre a las diferentes casas</p>
+                     </div>
+                </div>
+                <div class="casas">
+                    <a name="casas"></a>
+                    <h2>Casas de Hogwarts</h2>
+                </div>
+                <div class="casas_logo">
+                    <div class="Gryffindor">
+                        <figure class="figure">
+                            <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/gryffindor-1571664671.jpg?crop=1xw:1xh;center,top&resize=768:*">
+                        <figcaption class="figcaption">La Casa Gryffindor fue fundada por el célebre mago Godric Gryffindor. Godric sólo aceptaba en su casa a 
+                            aquellos magos y brujas que tenían valentía, disposición, coraje y caballerosidad, ya que éstas 
+                            son las cualidades de un auténtico Gryffindor.</figcaption>
+
+                        </figure>
+                        
+                    </div>
+                   
+                    <div class="Hufflepuff">
+                        <figure class="figure">
+                        <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/hufflepuff-1571664671.jpg?crop=1xw:1xh;center,top&resize=768:*">
+                    <figcaption class="figcaption">
+                        Hufflepuff busca alumnos leales, honestos y que no teman el trabajo pesado.La fundadora fue Helga Hufflepuff, amiga 
+                        desde la infancia de Rowena Ravenclaw. Helga fue una bruja muy noble, amigable y la principal impulsora de que 
+                        Hogwarts aceptase a alumnos nacidos de muggles.
+                    </figcaption>
+                    </figure>
+                    </div>
+                    <div class="Ravenclaw">
+                        <figure class="figure">
+                            <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/ravenclaw-1571664671.jpg?crop=1xw:1xh;center,top&resize=980:*">
+                            <figcaption class="figcaption">
+                                Ravenclaw busca alumnos creativos, curiosos y que siempre busquen la respuesta. Fue fundada por la bruja, 
+                                nacida en las cañadas de Escocia, Rowena Ravenclaw. Supuestamente es la principal inventora del nombre, 
+                                lugar y formato de Hogwarts.
+                            </figcaption>
+                        </figure>
+                        
+                    </div>
+                    <div class="Slytherin">
+                        <figure class="figure">
+                        <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/slytherin-1571664671.jpg?crop=1xw:1xh;center,top&resize=980:*">
+                                <figcaption class="figcaption"> 
+                                La Casa Slytherin está caracterizada principalmente por la ambición y la astucia. Fue fundada por el mago 
+                                Salazar Slytherin. El animal representativo es la serpiente, sus colores son verde y plateado y el elemento 
+                                es el agua, asociada con la astucia y la frialdad.
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+
+                <div>
+                    <a name="Personajes"></a>
+                    <div class="casas">
+                        <h2>Personajes</h2>
+                    </div>
+                    <div class="grid-contenedor">
+                       <div class="foto">
+                           <h3>Harry Potter</h3>
+                        <figure class="figure">
+                            <img src="https://www.ecured.cu/images/thumb/8/8b/Harry-potter.jpg/260px-Harry-potter.jpg">
+                        <figcaption class="figcaption">
+                            Harry es fuertemente guiado por su propia conciencia, y tiene un gran sentido de lo que está bien y mal.
+                            Es descrito como un talentoso aprendiz de mago. Tiene un talento particular para el vuelo en escoba. 
+                            También es talentoso en Defensa contra las Artes Oscuras, en lo que se hace experto debido a sus repetidos 
+                            encuentros con Voldemort y varios monstruos. En su tercer año, Harry logra realizar un encantamiento Patronus
+                             muy avanzado
+                        </figcaption>
+                        </figure>
+                       </div>
+                       <div class="foto">
+                        <figure class="figure">
+                            <h3>Hermione Granger</h3>
+                            <img src="https://myhero.com/images/guest/g282317/hero105677/image2.jpg">
+                        <figcaption class="figcaption">
+                            Hermione Jean Granger es una estudiante de Gryffindor nacida de padres muggles, y la mejor amiga de Harry Potter 
+                            y Ron Weasley. Ella tiene un mérito adicional que sobresale académicamente, y es descrita por Rowling como un personaje 
+                            "muy lógico, justo y de buen carácter
+                        </figcaption>
+                        </figure>
+                       </div>
+                       <div class="foto">
+                        <h3>Ron Weasley</h3>
+                        <figure class="figure">
+                            <img src="https://upload.wikimedia.org/wikipedia/vi/thumb/5/5e/Ron_Weasley_poster.jpg/250px-Ron_Weasley_poster.jpg">
+                        <figcaption class="figcaption">
+                            Es un personaje que se caracteriza por ser fiel, honrado, astuto, prudente, divertido, celoso, bromista, rebelde, 
+                            sarcástico, algo cascarrabias… pero ante todo amigo de sus amigos. Le encanta el ajedrez, el Quidditch, las bromas
+                             y estar con Harry y Hermione. Detesta las arañas, a algunos Slytherin (por ejemplo Draco Malfoy), la ropa de segunda 
+                             mano que tiene que ponerse y que Hermione le corrija
+                        </figcaption>
+                        </figure>
+                       </div>
+                       <div class="foto">
+                        <h3>Ginny Waeasley</h3>
+                        <figure class="figure">
+                            <img src="https://www.ecured.cu/images/2/2c/250px-GinnyWeasley.jpg">
+                        <figcaption class="figcaption">
+                            Ginny era una chica enérgica e independiente que a menudo conocía su propia mente. Sin embargo, 
+                            durante los primeros años de su amistad, se volvió tímida y retraída en su presencia. Crecer 
+                            con seis hermanos mayores la endureció. Ginny no tenía miedo de enfrentarse a nadie, amigos y enemigos por igual. 
+                        </figcaption>
+                        </figure>
+                       </div>
+                       <div class="foto">
+                        <h3>Luna Lovegood</h3>
+                        <figure class="figure">
+                            <img src="https://www.ecured.cu/images/a/a2/Luna_Lovegood.JPG">
+                        <figcaption class="figcaption">
+                            Luna era una chica extremadamente peculiar, con una disposición serena y muchas creencias y cualidades excéntricas.
+                             Ella era una completa inconformista; carecía de conciencia de sí misma y no tenía miedo de mostrar quién era 
+                             ella realmente. Luna también fue inteligente e inusualmente perceptiva.  
+                        </figcaption>
+                        </figure>
+                    </div>
+                       <div class="foto">
+                        <h3>Neville Longbottom</h3>
+                        <figure class="figure">
+                            <img src="https://p4.wallpaperbetter.com/wallpaper/552/907/808/people-harry-potter-actors-neville-longbottom-gryffindor-cast-matthew-david-lewis-1575x2100-wallp-people-actors-hd-art-wallpaper-preview.jpg">
+                        <figcaption class="figcaption">
+                            Cuando era más joven, Neville era torpe, olvidadizo, tímido, y muchos lo consideraban inadecuado para la casa 
+                            de Gryffindor porque parecía tímido. Sin embargo, Neville demostró que el Sombrero Seleccionador había visto 
+                            la valentía por debajo de su inseguridad, ya que defendió a sus únicos amigos como un primer año y más tarde 
+                            se convirtió en uno de los miembros más valientes del E.D.
+                        </figcaption>
+                        </figure>
+                       </div>
+                       <div class="foto">
+                        <h3>Rubius Hagrid</h3>
+                        <figure class="figure">
+                            <img src="https://www.ecured.cu/images/0/08/Hagrid_en_el_bosque_prohibido.jpg">
+                        <figcaption class="figcaption">
+                            Hagrid era un hombre increíblemente cálido, de buen corazón, y con frecuencia se olvidaba de su tamaño y 
+                            fuerza excepcional cuando acariciaba la gente en la parte posterior. Otro de los grandes rasgos de Hagrid 
+                            fue su coraje. Él también era muy leal a sus amigos y estaba dispuesto a defenderlos o luchar por ellos si 
+                            era necesario.
+                        </figcaption>
+                        </figure>
+                       </div>
+                       <div class="foto">
+                        <h3>Severus Snape</h3>
+                        <figure class="figure">
+                            <img src="https://www.ecured.cu/images/8/87/Severus_Snape.jpeg">
+                        <figcaption class="figcaption">
+                            Persona complicada y retraída, la vida de Severus Snape se vio abrumada por muchas emociones complejas que 
+                            nunca reveló por completo. A veces, Snape se muestra frío, cínico, malicioso, amargo y sarcástico. Tenía 
+                            una presencia dominante que exudaba gravitas, autoridad y control
+                        </figcaption>
+                        </figure>
+                       </div>
+                       <div class="foto"> 
+                        <h3>Albus Dumbledore</h3>
+                           <figure class="figure">
+                        <img src=https://images.ctfassets.net/usf1vwtuqyxm/1dmmUJzpRcWaUmMOCu8QwO/7e013145694566076d47fd004fd604c2/AlbusDumbledore_WB_F6_DumbledoreSittingInChair_Promo_080615_Port.jpg?fm=jpg&q=70&w=2560 >
+                    <figcaption class="figcaption">
+                        Debido al hecho de que tenía una mente aguda, mucha valentía y un poder legendario, Albus Dumbledore se convirtió 
+                        en el único mago al que Voldemort alguna vez temió. Él fue dueño de la Varita de Saúco desde 1945. 
+                        Hasta 1997, y era considerado por muchos como el mejor director que Hogwarts había tenido nunca.
+                    </figcaption>
+                    </figure></div>
+                       <div class="foto">
+                        <h3>Draco Malfoy</h3>
+                        <figure class="figure">
+                            <img src="http://bloghogwarts.com/wp-content/uploads/2007/12/draco-malfoy.jpg">
+                        <figcaption class="figcaption">
+                            Draco fue, en general, un matón arrogante y rencoroso. Su naturaleza narcisista provino de ser mimado por sus 
+                            padres durante la infancia, aunque según el propio Harry. Se creía superior a la mayoría de la gente debido a 
+                            la pureza de sangre de su familia, así como su gran riqueza y posición social.
+                        </figcaption>
+                        </figure>
+                       </div>
+                       <div class="foto">
+                        <h3>Cedric Diggory</h3>
+                        <figure class="figure">
+                            <img src="https://img.wattpad.com/cover/255156582-352-k934362.jpg">
+                        <figcaption class="figcaption">
+                            Se dijo que Cedric era la encarnación de las cualidades de la casa Hufflepuff.También parecía poseer 
+                            un fuerza de carácter que no era diferente a la de Harry. Se podría decir que Cedric era un hombre de 
+                            palabra con remarcada fuerza , Cedric era verdaderamente modesto.
+                        </figcaption>
+                        </figure>
+                       </div>
+                       <div class="foto">
+                        <h3>Cho Chang</h3>
+                        <figure class="figure">
+                            <img src="http://pm1.narvii.com/7113/3ca559162a56802ce92560a059ad0bbe700a1ccer1-491-784v2_uhq.jpg">
+                        <figcaption class="figcaption">
+                            Generalmente educada, dulce y amable, Cho era fácil de relacionarse y era un estudiante 
+                            popular en Hogwarts, con un gran grupo de amigos y muchos niños que la admiraban por su 
+                            gran belleza
+
+                        </figcaption>
+                        </figure>
+                       </div>
+                    </div>
+                </div>
+
+            </section>
+           
+
+
+        </div>
+        
+       <footer class="footer">
+           <p>Creado por Fernanda Aguilar</p>
+       </footer>
+</body>
+</html>
